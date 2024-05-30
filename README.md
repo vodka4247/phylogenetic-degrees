@@ -1,1 +1,2 @@
-# phylogenetic-degrees
+Here you can find the code for computing the phylogenetic degree for Jukes-Cantor model (group-based model for Z2) and any path-tree. By the path-tree we mean the tree which has k inner vertices which form a path
+The command latticevolume([a_1,\dots,a_n]) compute the lattice volume of the associated polytope for the path tree where inner vertices has a_1,\dots,a_k leaves. To obtain the degree one has to divide by 2^k. It is likely that the code can be improved but it works and that is important. If you want to know more about phylogenetic degrees you can read our article 
